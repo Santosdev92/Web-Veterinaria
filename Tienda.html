@@ -9,14 +9,44 @@
     <script type="text/javascript" src="JS/Tienda.js"></script>
   </head>
 <body>
+  <!-- Comienzo de barra de navegacion !-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/403/403890.png" alt="logo" width="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tienda
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Alimentos Balanceados</a></li>
+              <li><a class="dropdown-item" href="#">Accesorios para mascotas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Ofertas Outlet</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- Fin de barra de navegacion !-->
 
-
-
-
-
-
-
-    
+    <!-- Comienzo de productos de la tienda !-->
     <div class="row row-cols-1 row-cols-md-3 g-4" style="width : 70%;">
         <div class="col">
           <div class="card">
@@ -31,9 +61,8 @@
               </p>
             </div>
           </div>
-        </div>
-        
-        
+        </div>     
       </div>
+    <!-- Final de productos de la tienda !-->  
 </body>
 </html>
