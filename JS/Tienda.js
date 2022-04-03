@@ -1,11 +1,20 @@
 function vermas(id) {
-    if (id == "mas") {
-        document.getElementById("desplegar").style.display = "block";
-        document.getElementById("mas").style.display = "none";
+    if (document.getElementById(id).style.display = "none") 
+    {
+        document.getElementById(id).style.display = "block";
+        document.getElementById(id+1).style.display = "none";
+        document.getElementById(id+2).style.display = "block";
+        
+
     }
-    else {
-        document.getElementById("desplegar").style.display = "none";
-        document.getElementById("mas").style.display = "inline";
-    
+}
+
+function vermenos(id) {
+    if (document.getElementById(id).style.display = "block") 
+    {
+        document.getElementById(id).style.display = "none";
+        document.getElementById(id+1).style.display = "block";
+        document.getElementById(id+2).style.display = "none";
+
     }
 }
