@@ -6,6 +6,6 @@ function vermas(id) {
     else {
         document.getElementById("desplegar").style.display = "none";
         document.getElementById("mas").style.display = "inline";
+    
     }
 }
-      
